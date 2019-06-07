@@ -1,0 +1,35 @@
+.container-fluid
+{
+    height: 100%;
+    width: 100%;
+    background: rgb(29, 29, 87);
+}
+
+.headerJumbo
+{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+
+.snapCol
+{
+    background: url('https://media0.giphy.com/media/lck0qwKrqD7VrI2Qw2/giphy.gif?cid=790b76115cf9e74d6b6479614968d994&rid=giphy.gif');
+    background-position: right right;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+    height: 200px;
+}
+
+.charButtonContainer
+{
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

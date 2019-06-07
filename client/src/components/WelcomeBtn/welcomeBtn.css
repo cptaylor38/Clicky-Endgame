@@ -1,0 +1,17 @@
+#welcomeBtn
+{
+    background: none;
+    border: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    font-size: 28px;
+}
+
+#welcomeBtn:hover
+{
+    color: red;
+}

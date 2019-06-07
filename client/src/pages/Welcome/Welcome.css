@@ -1,0 +1,40 @@
+.bodyContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 29, 87);
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentContainer
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.titleRow
+{
+    flex: 1;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: url('https://media0.giphy.com/media/3o6fIS1YVhsYXUAnf2/giphy.gif?cid=790b76115cf9bd8d474946566f689763&rid=giphy.gif');
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    color: yellow;
+    border-radius: 100px;
+    margin-bottom: 110px;
+}
+
+.svgHolder
+{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
