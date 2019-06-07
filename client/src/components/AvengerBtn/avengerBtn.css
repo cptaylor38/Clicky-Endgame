@@ -1,12 +1,13 @@
 .imageBtn
 {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin: 20px;
     padding: 20px;
+    opacity: 0.8;
 }
 
 .imageBtn:hover
 {
-    opacity: 0.5
+    opacity: 1
 }

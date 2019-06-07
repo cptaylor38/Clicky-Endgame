@@ -33,3 +33,19 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.svgHolder
+{
+    height: 100%;
+    width: 100%;
+}
+
+#scoreText
+{
+    font-size: 32px;
+}
+
+#lossText
+{
+    font-size: 32px;
+}

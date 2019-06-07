@@ -19,14 +19,13 @@
 
 .titleRow
 {
-    flex: 1;
     margin: auto;
     justify-content: center;
     align-items: center;
     background: url('https://media0.giphy.com/media/3o6fIS1YVhsYXUAnf2/giphy.gif?cid=790b76115cf9bd8d474946566f689763&rid=giphy.gif');
     background-position: center center;
     background-size: cover;
-    min-height: 300px;
+    min-height: 350px;
     color: yellow;
     border-radius: 100px;
     margin-bottom: 110px;
