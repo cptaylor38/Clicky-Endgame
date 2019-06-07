@@ -1,8 +1,22 @@
-.container-fluid
+#fullPage
 {
     height: 100%;
     width: 100%;
     background: rgb(29, 29, 87);
+    margin: 0;
+    padding: 0;
+}
+
+#homeLink
+{
+    color: yellow;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+#homeLink:hover
+{
+    color: red;
 }
 
 .headerJumbo
@@ -22,7 +36,8 @@
     background-position: right right;
     background-size: cover;
     margin: 20px auto 0 auto;
-    height: 200px;
+    height: 165px;
+    border-radius: 100px;
 }
 
 .charButtonContainer

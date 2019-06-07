@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Game.css';
 import avengers from './avengers.json';
 import Avenger from '../../components/AvengerBtn/avengerBtn';
@@ -12,7 +13,32 @@ class Game extends Component {
     };
 
     clickedAvenger = id => {
-        console.log(id);
+        console.log('clickedAvenger function' + id);
+        this.state.avengers.sort(() => Math.random() - 0.5);
+        return (
+            !this.state.avengersClicked.includes(id) ? this.newlyClicked(id) : this.alreadyClicked()
+        )
+    }
+
+    alreadyClicked = () => {
+        let addLoss = this.state.losses + 1;
+        this.setState({
+            score: 0,
+            losses: addLoss,
+            avengersClicked: []
+        })
+    }
+
+    newlyClicked = (id) => {
+        let newArray = [...this.state.avengersClicked, id];
+        //newArray.push(id);
+        console.log(newArray);
+        console.log('newlyClicked function' + id);
+        let newScore = this.state.score + 1;
+        this.setState({
+            avengersClicked: newArray,
+            score: newScore
+        });
     }
 
     render() {
@@ -24,8 +50,9 @@ class Game extends Component {
                             <div className='col-lg-4 col-md-4 col-sm-4 scoreCol'>
                                 <p id='scoreText'>Score: {this.state.score}</p>
                             </div>
-                            <div className='col-lg-4 col-md-4 col-sm-4 snapCol'>
-
+                            <div className='col-lg-4 col-md-4 col-sm-4 middleCol'>
+                                <div className='snapCol'></div>
+                                <Link to='/' id='homeLink'>Home</Link>
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-4 lossCol'>
                                 <p id='lossText'>Losses: {this.state.losses}</p>
@@ -33,7 +60,7 @@ class Game extends Component {
                         </div>
                         <div className='charButtonContainer'>
                             {this.state.avengers.map(avenger => (
-                                <Avenger id={avenger.id} key={avenger.id} url={avenger.url} clickedAvenger={this.clickedAvenger} />
+                                <Avenger object={avenger} id={avenger.id} key={avenger.id} url={avenger.url} clickedAvenger={this.clickedAvenger} />
                             ))}
                         </div>
                     </div>
