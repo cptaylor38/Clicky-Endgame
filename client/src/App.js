@@ -17,7 +17,6 @@ function App() {
           <Route component={Welcome} />
         </Switch>
       </div>
-
     </Router>
 
   );
