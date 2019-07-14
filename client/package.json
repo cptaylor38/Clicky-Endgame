@@ -10,7 +10,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://cptaylor38.github.io/clickygame",
+  "homepage": "https://cptaylor38.github.io/Clicky-Endgame",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
