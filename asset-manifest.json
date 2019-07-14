@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Clicky-Endgame/static/css/main.b110ff54.chunk.css",
+    "main.js": "/Clicky-Endgame/static/js/main.48a03dbd.chunk.js",
+    "main.js.map": "/Clicky-Endgame/static/js/main.48a03dbd.chunk.js.map",
+    "runtime~main.js": "/Clicky-Endgame/static/js/runtime~main.4d753a58.js",
+    "runtime~main.js.map": "/Clicky-Endgame/static/js/runtime~main.4d753a58.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/Clicky-Endgame/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.e101bbfc.chunk.js": "/Clicky-Endgame/static/js/2.e101bbfc.chunk.js",
+    "static/js/2.e101bbfc.chunk.js.map": "/Clicky-Endgame/static/js/2.e101bbfc.chunk.js.map",
+    "index.html": "/Clicky-Endgame/index.html",
+    "precache-manifest.fd8c0df67a6d187935f4faffb5302b13.js": "/Clicky-Endgame/precache-manifest.fd8c0df67a6d187935f4faffb5302b13.js",
+    "service-worker.js": "/Clicky-Endgame/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/Clicky-Endgame/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.b110ff54.chunk.css.map": "/Clicky-Endgame/static/css/main.b110ff54.chunk.css.map"
+  }
+}
