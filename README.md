@@ -1,9 +1,13 @@
-# clickygame
+# [Clicky Endgame]()
 
-Clicky Endgame - An Avengers Endgame themed clicking game that tests your memory.
+A short memory game that uses React.
 
-If you click the same Avenger more than once, the game will reset and your number of losses will increment.
+User guide:
 
-The goal is to get all 12 Avengers without duplicate clicks. 
+Hit play on the landing page, then you're redirected to the game. 
 
-(*Currently no win logic - but if you've hit 12 you've won the game!)
+The goal is to get a perfect score of 12, with your score resetting if you click the same Avenger twice. Losses increments by 1 upon a duplicate click as the game restarts.
+
+![Landing](./public/landing.png)
+
+![Game](./public/game.png)
