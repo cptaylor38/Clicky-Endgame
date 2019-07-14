@@ -64,3 +64,11 @@
 {
     font-size: 32px;
 }
+
+@media(max-width: 575px)
+{
+    .headerJumbo
+    {
+        display: block;
+    }
+}
